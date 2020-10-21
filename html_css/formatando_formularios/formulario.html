@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+
+  <body>
+    <h2>Preencha o formulario</h2>
+    <form>
+      <label>
+        Nome: <br />
+        <input type="text" name="nome"/>
+      </label>
+
+      <br />
+
+      <label>
+        E-mail: <br />
+        <input type="email" name="email"/>
+      </label>
+      
+      <br />
+
+      <label>
+        Sobre: <br />
+        <textarea name="descricao"></textarea>
+      </label>
+
+      <br />
+      
+      <label>
+        Categoria: <br />
+        <select name="categoria">
+          <option value="1">categoria1</option>
+          <option value="2">categoria2</option>
+          <option value="3">categoria3</option>
+        </select>
+      </label>
+
+      <br />
+
+      <label>
+        <input type="checkbox" name="termos" class="magin"/>
+        li e concordo com os <a href="" target="_blank">termos de uso</a> 
+      </label>
+
+      <br />
+
+      <button>Fazer cadastro</button>
+    </form>
+  </body>
+</html>

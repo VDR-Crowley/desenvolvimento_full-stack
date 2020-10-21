@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #ccc;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+  text-shadow: 1px 2px 3px #000;
+  color: #DD8847;
+}
+
+form { 
+  width: 55%;
+  margin: 50px auto;
+  background: #fcfcfc;
+  padding: 50px 60px;
+  border-radius: 20px;
+}
+
+label { 
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 98%;
+  height: 50px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 3px groove #f0f0f0;
+  outline: 0; /* remove a borda quando o input tiver em foco*/
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+
+a {
+  text-decoration: none;
+  color: #456078;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #234590;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  background: #DDD;
+}
+
+button:hover {
+  background: #BBB;
+}
+
+.magin {
+  margin-right: 10px;
+}
