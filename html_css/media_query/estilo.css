@@ -1,0 +1,14 @@
+.area {
+  width: 600px;
+  height: 300px;
+  background: #0000ff;
+}
+
+/* quando o celular estiver deitado */
+@media only screen and (orientation: landscape) {
+  
+  .area{
+    width: 100%;
+    background: #ff0000;
+  }
+}
