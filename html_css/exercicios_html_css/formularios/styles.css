@@ -196,8 +196,13 @@ form small a:hover {
   }
 }
 
-@media (max-width: 390px) {
-  .container {
+@media (max-width: 400px) {
+  #form .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  #cadastro .container {
     width: 100%;
   }
 
