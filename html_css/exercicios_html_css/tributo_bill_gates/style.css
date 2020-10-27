@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #efefdf;
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -17,6 +18,9 @@ header {
   justify-content: space-around;
 
   background-color: #fff;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .container {
@@ -251,15 +255,65 @@ header li a:hover {
 footer {
   display: flex;
   margin-top: 20px;
-  height: 200px;
-  color: #fff;
-  background: #000;
-  justify-content: center;
+  height: 450px;
+  background: #0b0b0b;
+  flex-direction: column;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-footer .copy {
-  text-align: center;
+footer .container h1 {
+  color: #cdcdcd;
+  margin: 25px auto;
 }
 
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .container #footer-list {
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+  margin-left: 25px;
+}
+
+footer .list1,
+footer .list2,
+footer .list3 {
+  width: 100%;
+  flex: 1; 
+
+  padding: 30px;
+  list-style:none;
+  margin: 30px 55px;
+}
+
+footer .list1 li a,
+footer .list2 li a,
+footer .list3 li a {
+  color: #5d5d5d;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+footer .list1 li a:hover,
+footer .list2 li a:hover,
+footer .list3 li a:hover {
+  color: #fff;
+}
+
+#copyright {
+  display: flex;
+}
+
+#copyright .container {
+  justify-content: center
+}
+
+#copyright span {
+  color: #cdcdcd;
+}
