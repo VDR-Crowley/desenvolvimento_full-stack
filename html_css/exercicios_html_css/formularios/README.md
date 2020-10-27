@@ -1,5 +1,4 @@
 ## Layout Desktop
-
 <p align="center">
   <img src="./git/entrar.png">
   <br>
@@ -7,7 +6,6 @@
 </p>
 
 ## Layout Mobile
-
 <p align="center">
   <img src="./git/mobile1.png">
   <br>
