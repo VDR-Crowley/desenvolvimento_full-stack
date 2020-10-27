@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #101010;
+  background-color: #252525;
   font-family: "Times New Roman", Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
   margin-top: 150px;
 }
 
-.container {
+#form .container {
   display: flex;
   justify-content: center;
 }
@@ -104,4 +104,135 @@ form small a:hover {
   color: #FF4500;
   text-shadow: 1px 1px 2px #FF4500;
   text-decoration: underline;
+}
+
+/* Estilo de cadastro */
+
+#cadastro .container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.form-cadastro {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-cadastro fieldset {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #101010;
+  border: 0;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.form-cadastro input {
+  width: 100%;
+  padding: 30px;
+  outline: 0;
+  background-color: #454545;
+}
+
+
+
+.form-cadastro input[type="checkbox"] {
+  display: flex;
+  width: 20px;
+  margin-bottom: 40px;
+}
+
+.form-cadastro .campo-checkbox {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+
+.campo-checkbox span {
+  display: flex;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.campo-checkbox span a {
+  margin-left: 5px;
+  color: #151515;
+  text-decoration: none;
+}
+
+.campo-checkbox span a:hover {
+  color: #FF4500;
+  text-decoration: underline;
+}
+
+.form-cadastro button {
+  display: flex;
+  width: 100%;
+  margin:0 auto;
+  justify-content: center
+}
+
+
+
+
+@media (max-width: 690px) {
+  .form-cadastro {
+     height: 900px;
+     margin-top: 30px;
+     padding-top: 40px;
+  }
+
+  .form-cadastro fieldset {
+    font-size: 30px;
+  }
+
+  .form-cadastro input {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
+  }
+
+  .form-cadastro {
+    height: 750px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .form-cadastro input {
+    padding: 10px;
+    font-size:18px;
+  }
+
+  .form-cadastro input[type="checkbox"] {
+    width: 10px;
+  }
+
+  .campo-checkbox {
+    width: 280px;
+    height: 55px;
+    margin-bottom: 10px;
+  }
+
+  .campo-checkbox span {
+    padding-top: 10px;
+    font-size:10px;
+  }
+
+  .campo-checkbox span a {
+    display: inline
+  }
+
+  button {
+    margin-bottom: 40px;
+  }
+
 }
