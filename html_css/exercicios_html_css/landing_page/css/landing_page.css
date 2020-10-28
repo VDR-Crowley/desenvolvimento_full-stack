@@ -1,0 +1,286 @@
+/*
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Parisienne', cursive;
+
+    font-family: 'Rye', cursive;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  /*
+  background: url('../images_opala/fogo_bg.jpg') repeat-x;
+  */
+  background: linear-gradient(to bottom, #292929, #000);
+
+  background-size: cover;
+  font-family: 'Rye', cursive;
+}
+
+#nav-primary {
+  width: 100%;
+  height: 50px;
+  background-color: #454545;
+}
+
+#nav-primary .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-primary a i {
+  color: #ddd;
+
+  font-size: 45px;
+  margin-right: 20px;
+
+  transition: color 0.1s;
+}
+
+#nav-primary a i:hover {
+  color: #fff;
+}
+
+
+
+
+/* Menu navegação */
+
+#nav-menu {
+  width: 97%;
+  height: 150px;
+  background: url('../images_opala/img_fundo_final.jpg');
+  opacity: 0.5;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#nav-menu .container {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#nav-menu .container .logo {
+  margin-right: 60em;
+}
+
+#nav-menu .container .logo a{
+  color: #ccc;
+  font-size: 35px;
+  text-decoration: none;
+  font-family: 'Rye', cursive;
+
+}
+
+#nav-menu .container .menu ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+#nav-menu .container .menu ul li a {
+  color: #ccc;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#nav-menu .container .menu ul li a:hover {
+  color: #fff;
+
+}
+
+.barra {
+  width: 0.5px;
+  height: 30px;
+  margin: 0 20px;
+  background: #fff;
+  border: 1px solid #fff;
+  opacity: 0.5;
+
+}
+
+
+
+
+
+#conteudo-principal {
+  display: flex;
+  justify-content: center;
+}
+
+.assinatura {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.assinatura h1{
+  font-size: 30px;
+  color: gold;
+  margin: 20px; 
+  margin-bottom: 0;
+  font-family: 'Parisienne', cursive;
+}
+.assinatura small {
+  font-size: 15px;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.assinatura .form {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background: #454545;
+
+  border-radius: 20px;
+
+}
+
+.assinatura .form label input{
+  width: 100%;
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background: #454545;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #292929
+}
+
+.assinatura .form button {
+  color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background:  	#DAA520;
+  border: none;
+  text-shadow: 2px 2px 2px #292929;
+}
+
+.assinatura .form button:hover {
+  background: gold;
+}
+
+.opala-image {
+  font-family: 'Parisienne', cursive;
+}
+
+.opala-image h1 {
+  color: gold;
+  font-size: 40px;
+
+
+  transform: translate(500px, 1000px);
+  transform: rotate(-29deg);
+  transform-origin: 70% 20%;
+}
+
+.opala-primary {
+  width: 900px;
+  height: 550px;
+  margin-top: 50px;
+
+}
+
+
+
+
+#sobre_nos {
+  margin: 0 100px;
+  width: 85%px;
+  height: 850px;
+  background: #292929;
+  border-radius: 20px;
+
+}
+
+.texto-primary {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+  text-transform: uppercase;
+  color: gold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#sobre_nos .container{
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 0 auto;
+
+}
+
+.info1 h1,
+.info2 h1,
+.info3 h1 {
+  font-size: 28px;
+  padding: 50px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.info1,
+.info2,
+.info3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #292929;
+  background: #ccc;
+
+}
+
+.image{
+  width: 290px;
+  height: 265px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.info1 ul,
+.info2 ul,
+.info3 ul {
+  list-style: disc;
+  margin: 20px;
+  padding: 20px;
+}
+
+.info1 ul li,
+.info2 ul li,
+.info3 ul li {
+  margin-left: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
