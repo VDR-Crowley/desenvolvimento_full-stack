@@ -9,7 +9,6 @@ header .container{
   justify-content: flex-end;
   text-align: center;
   padding: 20px;
-  border: 1px solid #FF4500;
 }
 
 header .container a span{
@@ -59,21 +58,33 @@ header .container a .photo_gmail {
   justify-content: center;
   align-items: center;
   padding: 100px;
-
+  margin-top: 25px;
 }
 
 #google_principal .container div img {
-  width: 450px;
-  height: 150px;
+  width: 410px;
+  height: 130px;
+}
+
+label {
+  width: 890px;
 }
 
 #google_principal .container div input {
   font-size: 20px;
-  width: 950px;
-  margin-top: 50px;
-  padding: 22px;
+  width: 890px;
+  margin-top: 45px;
+  margin-left: 12px;
+  padding: 18px;
   border-radius: 40px;
   border: 1px solid #ccc;
+  background: url('./images/keyboard.png') no-repeat center;
+  background-position-x: 96%;
+  background-size: 28px;
+}
+
+#google_principal .container div input:hover {
+  box-shadow: 1px 3px 5px #ddd;
 }
 
 #google_principal .container div .button {
@@ -100,4 +111,59 @@ header .container a .photo_gmail {
 .btn {
   margin-left: 27%;
   margin-right: 50px;
+}
+
+
+
+
+
+
+
+footer .container {
+  margin-top: 133px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(100,100,100,.1);
+  justify-content: flex-end;
+  color: #5F6368;
+}
+
+footer .column-primary {
+  display: flex;
+  padding: 20px;
+  padding-left: 42px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+footer .column-secondary {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 20px;
+  font-size: 18px;
+}
+
+footer .column-secondary .primary {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; 
+}
+
+footer .column-secondary .secondary {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .column-secondary li a {
+  font-size:20px;
+  color: #5F6368;
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer .column-secondary li a:hover {
+  text-decoration: underline;
+  color: #292929;
 }
