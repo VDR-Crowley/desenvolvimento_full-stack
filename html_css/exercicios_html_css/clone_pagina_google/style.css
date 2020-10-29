@@ -167,3 +167,387 @@ footer .column-secondary li a:hover {
   text-decoration: underline;
   color: #292929;
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 382px) {
+  
+  header .container {
+    display: none;
+  }
+  
+  #google_principal .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 25px;
+  }
+  
+  #google_principal .container div img {
+    width: 223px;
+    height: 80px;
+  }
+  
+  #google_principal .container div input {
+    font-size: 18px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 12px;
+    padding: 15px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    background: url('./images/keyboard.png') no-repeat center;
+    background-position-x: 94%;
+    background-size: 25px;
+  }
+  
+
+  #google_principal .container div button{
+    color: #5F6368;
+    font-size: 15px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #f2f2f2;
+    opacity: 0.8
+  }
+  
+  .btn {
+    margin-left: 10%;
+    margin-right: 0px;
+  }
+
+
+
+  footer .container {
+    margin-top: 128px;
+  }
+
+  footer .column-primary {
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+  
+  footer .column-secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  footer .column-secondary .primary {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary .secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary li a {
+    font-size:12px;
+    color: #5F6368;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 525px) and (max-width: 786px) {
+  
+
+
+  header .container{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header .container a span{
+    font-size: 12px;
+    line-height: 3.5;
+    padding-left: 10px;
+    padding-right: 5px;
+   /* border: 1px solid #ff0000;*/
+  }
+  
+  
+  header .container a img {
+    width:15px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+   /* border: 1px solid #00ff00; */
+  }
+  
+  header .container a .photo_gmail {
+    width: 35px;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+
+
+  
+  #google_principal .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 25px;
+  }
+  
+  #google_principal .container div img {
+    width: 290px;
+    height: 90px;
+  }
+  
+  #google_principal .container div input {
+    font-size: 20px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 11px;
+    padding: 15px;
+  }
+  
+
+  #google_principal .container div button{
+    color: #5F6368;
+    font-size: 15px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #f2f2f2;
+    opacity: 0.8
+  }
+  
+  .btn {
+    margin-left: 22%;
+    margin-right: 20px;
+  }
+
+
+
+  footer .container {
+    margin-top: 90x;
+  }
+
+  footer .column-primary {
+    display: flex;
+    padding: 17px;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+  
+  footer .column-secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 17px;
+  }
+  
+  footer .column-secondary .primary {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary .secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary li a {
+    font-size:17px;
+    color: #5F6368;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 383px) and (max-width: 524px) {
+
+  header .container a span{
+    font-size: 12px;
+    line-height: 3.1;
+    padding-left: 10px;
+    padding-right: 5px;
+   /* border: 1px solid #ff0000;*/
+  }
+  
+  
+  header .container a img {
+    width:13px;
+    margin-top: 11px;
+    margin-right: 20px;
+    margin-left: 15px;
+   /* border: 1px solid #00ff00; */
+  }
+  
+  header .container a .photo_gmail {
+    width: 30px;
+  }
+  
+  #google_principal .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 25px;
+  }
+  
+  #google_principal .container div img {
+    width: 280px;
+    height: 90px;
+  }
+  
+  #google_principal .container div input {
+    font-size: 20px;
+    width: 395px;
+    margin-top: 40px;
+    margin-left: 11px;
+    padding: 15px;
+  }
+  
+
+  #google_principal .container div button{
+    color: #5F6368;
+    font-size: 15px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #f2f2f2;
+    opacity: 0.8
+  }
+  
+  .btn {
+    margin-left: 15%;
+    margin-right: 20px;
+  }
+
+
+
+  footer .container {
+    margin-top: 90x;
+  }
+
+  footer .column-primary {
+    display: flex;
+    padding: 15px;
+    font-size: 17px;
+  }
+  
+  footer .column-secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  footer .column-secondary .primary {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary .secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  footer .column-secondary li a {
+    font-size:16px;
+    color: #5F6368;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 788px) and (max-width: 991px) {
+  
+  
+  #google_principal .container div input {
+    font-size: 20px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 11px;
+    padding: 15px;
+  }
+
+  #google_principal .container div button{
+    color: #5F6368;
+    font-size: 20px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #f2f2f2;
+    opacity: 0.8
+  }
+  
+  .btn {
+    margin-left: 24%;
+    margin-right: 20px;
+  }
+
+
+}
