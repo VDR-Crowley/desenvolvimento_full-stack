@@ -11,17 +11,25 @@
   <img src="./images/responsiva1.png" width="400">
 </p>
 
+<hr>
+
 <p align="center">
   <img src="./images/responsiva2.png" width="400">
 </p>
+
+<hr>
 
 <p align="center">
   <img src="./images/responsiva4.png">
 </p>
 
+<hr>
+
 <p align="center">
   <img src="./images/responsiva3.png">
 </p>
+
+<hr>
 
 <p align="center">
   <img src="./images/responsiva5.png">
