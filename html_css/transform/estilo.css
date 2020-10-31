@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px auto;
+}
+
+.scale {
+    transform: scale(0.5); /* distorce a image reduzindo o tamanho ou aumentando sua area*/
+}
+
+.rotate {
+    transform: rotate(180deg); /* Rotaciona em graus */
+}
+
+.skew {
+    transform: skew(20deg); /* Realiza um tipo de distorção, meio que deitando o elemento */
+}
