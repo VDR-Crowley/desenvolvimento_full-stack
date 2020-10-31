@@ -56,13 +56,14 @@ body {
   width: 97%;
   height: 150px;
   background: url('../images_opala/img_fundo_final.jpg');
-  opacity: 0.5;
   margin: 0 auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 #nav-menu .container {
+  background-color: rgba(0, 0, 0, 0.5);
+
   height: 150px;
   display: flex;
   justify-content: space-around;
