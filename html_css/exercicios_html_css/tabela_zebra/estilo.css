@@ -1,0 +1,41 @@
+/* Table zebra
+pode ser feito assim
+
+table tr:nth-child(n2) {
+  background: #00ff00;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+table {
+  width: 700px;
+  margin: 0 auto;
+}
+
+table tr th {
+  font-size: 18px;
+  padding: 10px;
+  color: #ccc;
+  border-bottom: 1px solid #555;
+  background-color: #888;
+}
+
+table tr td {
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+table tr:nth-child(even) {
+  background: #ddd;
+}
+
+tbody tr td:nth-child(4) {
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+}
