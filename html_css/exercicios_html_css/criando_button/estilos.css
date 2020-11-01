@@ -1,0 +1,26 @@
+a {
+  width: 280px;
+  height: 100px;
+  text-align: center;
+
+  margin-left: 800px;
+  margin-top: 150px;
+
+  display: inline-block;
+  line-height: 2.6;
+  text-decoration: none;
+  
+  color: #fff;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+.botao {
+  background: linear-gradient(#3f6cb1, #4b7894);
+  font-size: 38px;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.botao:hover {
+  background: linear-gradient(#508ae0, #76adcf);
+}
