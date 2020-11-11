@@ -1,0 +1,40 @@
+.container {
+  background: #CCCCCC;
+  display: grid;
+  grid-gap: 10px;
+
+  grid-template-areas: 
+    "cabecalho cabecalho cabecalho cabecalho"
+    "menu conteudo conteudo conteudo"
+    "anuncio conteudo conteudo conteudo"
+    "rodape rodape rodape rodape"
+
+  ;
+}
+
+.item {
+  padding: 20px;  
+  font-size: 20px;
+  background: orange;
+  border-radius: 10px;
+}
+
+header {
+  grid-area: cabecalho;
+}
+
+nav {
+  grid-area: menu;
+}
+
+section {
+  grid-area: conteudo;
+}
+
+footer {
+  grid-area: rodape;
+}
+
+.ad {
+  grid-area: anuncio;
+}
