@@ -1,8 +1,16 @@
 .container {
+  background: #ccc;
+  height: 800px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr) );
-  grid-column-gap: 30px; /* Espaço entre colunas */
-  grid-row-gap: 30px; /* Espaço entre as linhas da colunas */
+  grid-template-columns: repeat(3,200px);
+  /*
+  grid-column-gap: 30px; /* Espaço entre colunas 
+  grid-row-gap: 30px;  Espaço entre as linhas da colunas 
+  */
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
 .item {
