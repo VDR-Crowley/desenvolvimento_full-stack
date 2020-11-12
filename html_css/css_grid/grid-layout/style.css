@@ -38,3 +38,15 @@ footer {
 .ad {
   grid-area: anuncio;
 }
+
+@media (max-width: 750px) {
+
+  .container {
+    grid-template-areas:
+      "cabecalho cabecalho cabecalho menu"
+      "conteudo conteudo conteudo conteudo"
+      ". . anuncio ."
+      "rodape rodape rodape rodape"
+    ;
+  }
+}
