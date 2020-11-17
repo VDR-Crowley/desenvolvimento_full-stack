@@ -1,0 +1,29 @@
+.header {
+  background: #289563;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.header + div {
+  background: #896314;
+}
+
+.header + div > span {
+  font-size: 40px;
+  margin: 20px;
+}
+
+div > span + ul {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+ul > li {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+div > strong {
+  color: #227798;
+  font-size: 20px;
+}
