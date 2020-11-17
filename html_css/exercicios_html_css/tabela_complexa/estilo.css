@@ -1,0 +1,18 @@
+table {
+  margin: auto;
+  border: 2px solid #000;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+tr th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tr td {
+  padding: 10px;
+  border: 1px solid #000;
+}
