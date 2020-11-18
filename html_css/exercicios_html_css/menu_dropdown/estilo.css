@@ -1,0 +1,38 @@
+ul {
+  background: #f55825;
+}
+
+li {
+  display: inline-block
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+li a:hover {
+  background: #fff;
+  color: #f55825;
+}
+
+.dropdown {
+  background: #000;
+  position: absolute;
+  display: none;
+  min-width: 190px;
+}
+
+.dropdown-content {
+  padding: 0;
+}
+
+li:hover .dropdown {
+  display: block;
+}
+
+.dropdown ul li {
+  display: block;
+}
