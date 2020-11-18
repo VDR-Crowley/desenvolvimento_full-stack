@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  background: #256891;
+  bottom: 0;
+}
