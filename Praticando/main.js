@@ -1,11 +1,13 @@
-function clicou() {
+const botao = document.getElementsByTagName('button')[0];
 
-  const valor = (min, max) => {
-    const valor = Math.random() * (max - min) + min
-    return Math.floor(valor)
-  }
-
-  let res = document.querySelector('div')
-
-  res.innerText = valor(0, 50)
+botao.onclick = function clicou() {
+  window.open(' http://www.imdb.com')
 }
+
+const botao2 = document.getElementsByTagName('button')[1];
+
+// Para Browser mais antigos
+// botao2.attachEvent() - IE8 e anteriores
+botao2.addEventListener('click', () => {
+  alert('Clicou');
+});
