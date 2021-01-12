@@ -1,3 +1,12 @@
+const costs = 
+[ .25, .27, .25, .25, .25, .25,
+  .33, .31, .25, .29, .27, .22,
+  .31, .25, .25, .33, .21, .25,
+  .25, .25, .28, .25, .24, .22,
+  .20, .25, .30, .25, .24, .25,
+  .25, .25, .27, .25, .26, .29
+];
+
 const scores = 
 [ 60, 50, 60, 58, 54, 54, 
   58, 50, 52, 54, 58, 69, 
@@ -23,9 +32,20 @@ function printAndGetHighScore(scores) {
   return highScore;
 }
 
-let highScore = printAndGetHighScore(scores);
-console.log('Bubbles tests: '+ scores.length);
-console.log('Highest bubble score: '+highScore);
+function getMostCostEffectiveSolution(scores, costs, highScore) {
+  let cost = 100;
+  let index;
+
+  for(let i = 0; i < scores.length; i++) {
+    if(scores[i] == highScore) {
+      if(cost > scores[i]) {
+        index = i;
+        cost = costs;
+      }
+    }
+  }
+  return index;
+}
 
 function getBestResult(scores, highScore) {
   let bestSolutions = [];
@@ -38,6 +58,14 @@ function getBestResult(scores, highScore) {
   }
   return bestSolutions.join(', #');
 }
+
+
+let highScore = printAndGetHighScore(scores);
+console.log('Bubbles tests: '+ scores.length);
+console.log('Highest bubble score: '+highScore);
+
+let mostCostEffective = getMostCostEffectiveSolution(scores, costs, highScore);
+console.log('Bubble Solution #'+mostCostEffective+ ' is the most cost effective');
 
 let bestSolutions = getBestResult(scores, highScore)
 console.log('solutions with highest score: #'+bestSolutions);
