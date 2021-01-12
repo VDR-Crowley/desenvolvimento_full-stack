@@ -1,0 +1,59 @@
+main {
+  width: 600px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.numberOne {
+  width: 300px;
+  height: 300px;
+  font-size: 100px;
+  text-align: center;
+  background-color:#707070;
+
+  line-height: 280px;
+  border-radius: 20px;
+  margin-left: 10px
+}
+
+.numberTwo {
+  width: 300px;
+  height: 300px;
+  font-size: 100px;
+  text-align: center;
+  background-color:#B7B7B7;
+
+  line-height: 280px;
+  border-radius: 20px;
+  outline: 0;
+  margin-left: 10px
+}
+
+.verificar {
+  width: 600px;
+  height: 50px;
+  grid-column: 1/3;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: #00A54E;
+  border-radius: 20px;
+}
+
+.verificar a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.verificar:hover {
+  background-color: #009337;
+}
