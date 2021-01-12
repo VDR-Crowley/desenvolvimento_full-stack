@@ -6,7 +6,7 @@ main {
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  margin: auto;
 }
 
 .numberOne {
