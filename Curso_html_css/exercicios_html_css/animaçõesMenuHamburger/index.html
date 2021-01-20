@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation menu hamburger</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .menu {
+      width: 88px;
+      height: 88px;
+      margin: 100px auto;
+      position: relative;
+    }
+
+    .menu label {
+      width: 100%;
+      height: 100%;
+      background-color: #069;
+      position:absolute;
+      transition: all .3s linear;
+    }
+
+    #check {
+      position: absolute;
+      z-index: 1;
+      display: none;
+    }
+
+    span {
+      width: 60px;
+      height: 8px;
+      top: 40px;
+      left: 14px;
+      position: absolute;
+      background-color: #fff;
+      transition: all .3s linear;
+    }
+
+    span:before {
+      content: "";
+      width: 60px;
+      height: 8px;
+      bottom: -20px;
+      position: absolute;
+      background-color: #fff;
+      transition: all .3s linear;
+    }
+
+    span:after {
+      content: "";
+      width: 60px;
+      height: 8px;
+      top: -20px;
+      position: absolute;
+      background-color: #fff;
+      transition: all .3s linear;
+    }
+
+    #check:checked ~ span {
+      background-color: transparent;
+    }
+
+    #check:checked ~ span:before {
+      transform: translate(0px, -20px) rotate(-45deg);
+    }
+
+    #check:checked ~ span:after {
+      transform: translate(0, 20px) rotate(45deg);
+    }
+
+    #check:checked ~ label {
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="menu">
+    <input type="checkbox" id="check">
+    <label for="check"></label>
+    <span></span>
+  </div>
+
+</body>
+</html>
