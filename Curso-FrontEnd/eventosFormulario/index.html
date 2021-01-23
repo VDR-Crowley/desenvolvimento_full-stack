@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento de formulario</title>
+</head>
+<body>
+  
+  <form method="post" onsubmit="return false">
+
+    <input type="text" onfocus="isOnFocus()" onblur="exitTheFocus()"/> <br> <br>
+
+    <select name="cidade" onchange="changeCity(this)">
+      <option>---</option>
+      <option>São Paulo</option>
+      <option>Rio de Janeiro</option>
+      <option>Belorizonte</option>
+      <option>Rio Grande do Sul</option>
+    </select>
+
+    <br><br><br><br>
+
+    <input type="submit" value="Enviar" />
+  </form>
+
+  <script src="./main.js"></script>
+</body>
+</html>
