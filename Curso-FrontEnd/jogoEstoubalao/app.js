@@ -2,8 +2,8 @@ function addBol() {
   let bol = document.createElement('div');
   bol.setAttribute("class", "bola");
 
-  positonOne = Math.floor(Math.random() * 500);
-  positonTwo = Math.floor(Math.random() * 400);
+  positonOne = Math.floor(Math.random() * 1000);
+  positonTwo = Math.floor(Math.random() * 500);
 
   bol.setAttribute("style", `left:${positonOne}px; top:${positonTwo}px;`);
   colorRand(bol);
