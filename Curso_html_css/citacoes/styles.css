@@ -1,0 +1,9 @@
+p > q {
+  font-style: italic;
+  color: #F5A869;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+}
