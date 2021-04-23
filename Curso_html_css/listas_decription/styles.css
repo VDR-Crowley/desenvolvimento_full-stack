@@ -1,0 +1,19 @@
+dl {
+  border-color: #455896;
+  border-style: ridge;
+  border-width: 5px;
+  border-collapse: separate;
+}
+
+dl > dt {
+  text-indent: 20px; /* puxa o text pra direita como se fosse um tab */
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+dt + dd {
+  color: #458879;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000000;
+}
