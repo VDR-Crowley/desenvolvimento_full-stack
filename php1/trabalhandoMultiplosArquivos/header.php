@@ -7,4 +7,4 @@
       <li> <a href="#about">about</a> </li>
     </ul>
   </nav>
-<header>
+</header>
