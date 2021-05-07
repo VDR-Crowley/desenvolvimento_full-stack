@@ -1,0 +1,22 @@
+body {
+  background-color: red;
+  color: blue;
+}
+
+@media (aspect-ratio: 1/1) {
+  body {
+    background: pink;
+  }
+}
+
+@media (min-aspect-ratio: 4/2) {
+  body {
+    background: teal;
+  }
+}
+
+@media (max-aspect-ratio: 1/2) {
+  body {
+    background: maroon;
+  }
+}

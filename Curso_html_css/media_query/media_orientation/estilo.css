@@ -1,0 +1,21 @@
+body {
+  display: flex;
+}
+
+div {
+  width: 250px;
+  height: 200px;
+  border: 1px double black;
+}
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    flex-direction: column;
+  }
+}

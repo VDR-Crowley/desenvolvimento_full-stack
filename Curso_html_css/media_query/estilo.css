@@ -4,11 +4,24 @@
   background: #0000ff;
 }
 
-/* quando o celular estiver deitado */
+@media only print {
+  h1 {
+    color: blue;
+    text-shadow: 1px 1px 1px #000000;
+  }
+}
+
+@media only screen {
+  h1 {
+    color: green;
+  }
+}
+
+/* quando o celular estiver deitado 
 @media only screen and (orientation: landscape) {
   
   .area{
     width: 100%;
     background: #ff0000;
   }
-}
+}*/
