@@ -1,0 +1,48 @@
+.video-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background: tomato;
+}
+
+.video-area {
+  position: relative;
+  height: 0px;
+  background: violet;
+  padding: 0px 0px 56.25%;
+}
+
+.video-area iframe {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+/* Mesma estrutura responsiva porem com imagens */
+
+.image-container {
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.image-area {
+  position: relative;
+  height: 0px;
+  margin: 10px 0;
+  padding: 0px 0px 56.25%;
+}
+
+.image-area img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
