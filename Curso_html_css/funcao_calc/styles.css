@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: calc(1.5rem + 3vw);
+}
+
+.container {
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: aqua;
+}
