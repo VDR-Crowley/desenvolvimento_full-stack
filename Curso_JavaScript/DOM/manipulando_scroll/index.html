@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 30px;
+      background-color: red;
+    }
+
+    .btn {
+      visibility: hidden;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: blue;
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      z-index: 2;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+
+  <div class="btn"></div>
+
+  <script>
+
+    let btn = document.querySelector('.btn');
+
+    /*// Primeira forma de fazer
+    setInterval(function () {
+      if (window.scrollY < 50) {
+        btn.style.display = 'none';
+      } else {
+        btn.style.display = 'block';
+      }
+    }, 100);*/
+
+    // Scroll Suave
+    btn.addEventListener('click', function () {
+      window.scrollTo(
+        {
+          top: 0,
+          behavior: "smooth"
+        }
+      );
+    });
+
+    function scrollLeve() {
+      if (window.scrollY < 50) {
+        btn.style.visibility = 'hidden';
+        btn.style.opacity = '0%';
+      } else {
+        btn.style.visibility = 'visible';
+        btn.style.opacity = '100%';
+      }
+    }
+
+    // Segunda forma de fazer
+    window.addEventListener('scroll', scrollLeve);
+
+
+  </script>
+
+</body>
+
+</html>
