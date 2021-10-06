@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 400px);
+      grid-template-areas: "button""galeria";
+      transition: .5s;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    button {
+      width: 100px;
+      padding: 20px;
+      align-self: start;
+    }
+
+    .res {
+      grid-column: 1 / 2;
+    }
+
+    figure {
+      width: 100%;
+      background-color: #321435;
+      color: white;
+      justify-self: center;
+      border: 1px solid red;
+    }
+
+    figcaption {
+      font-weight: bold;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <button>Buscar</button>
+  <div class="res"></div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
