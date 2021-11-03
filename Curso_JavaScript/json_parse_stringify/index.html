@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <script>
+    let nameJson = '{"Nome": "Vando"}';
+    let transformJson = JSON.parse(nameJson); // Transforma em json
+    console.log(transformJson); // { "Nome": "Vando" }
+
+    let transformJsonString = JSON.stringify(transformJson); // transforma em string
+    console.log(JSON.stringify(transformJsonString)); // "{\"Nome\":\"Vando\"}"
+  </script>
+</body>
+
+</html>
