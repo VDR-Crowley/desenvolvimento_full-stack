@@ -7,7 +7,9 @@ var form = document.getElementById('form');
 function summitEvent(event) {
     var resposta = document.getElementById('res');
     var nome = String(User.nome.value);
-    var idade = Number(User.idade.value);
+    var idade;
+    if (typeof User.idade != 'number' && typeof User.idade != 'string')
+        idade = Number(User.idade.value);
     event.preventDefault();
     resposta.innerHTML = "<br>Nome: " + nome + "<br>";
     resposta.innerHTML += "Idade: " + idade;
