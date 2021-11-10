@@ -1,3 +1,4 @@
+"use strict";
 var User = {
     nome: document.getElementById('nome'),
     idade: document.getElementById('idade')
@@ -7,7 +8,7 @@ var form = document.getElementById('form');
 function summitEvent(event) {
     var resposta = document.getElementById('res');
     var nome = String(User.nome.value);
-    var idade;
+    var idade = 0;
     if (typeof User.idade != 'number' && typeof User.idade != 'string')
         idade = Number(User.idade.value);
     event.preventDefault();
